@@ -1,0 +1,53 @@
+.content--img{
+    height: 400px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    background: var(--white);
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.content--img-preview{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.content--img h2{
+
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content--img p{
+
+    font-size: 12px;
+    font-weight: 400;
+
+    margin: 0;
+    color: var(--blue)
+}
+
+/* drop */
+
+.content--img input{
+    position: absolute;
+    left: -9999px;
+	opacity: 0;
+}
+
+.none{
+    display: none;
+}
+
+.content--img.drop{
+    background-color: var(--blue);
+    opacity: 0.8;
+}

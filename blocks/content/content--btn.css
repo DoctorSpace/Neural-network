@@ -1,0 +1,24 @@
+.content--btn{
+    height: 64px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 40px;
+
+    gap: 10px;
+
+    background-color: var(--blue);
+
+    cursor: pointer;
+    opacity: 1;
+    transition: all 0.6s;
+}
+
+.content--btn:hover{
+    background-color: var(--blue);
+    opacity: 0.8;
+}

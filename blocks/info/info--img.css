@@ -1,0 +1,27 @@
+.info--img{
+    margin-right: 200px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media (max-width: 1000px) {
+    .info--img{
+        margin-right: 20px;
+    }
+
+    .info--img img{
+        height: 180px;
+    }
+}
+
+@media (max-width: 620px) {
+    .info--img{
+        margin-right: 20px;
+    }
+
+    .info--img img{
+        height: 140px;
+    }
+}

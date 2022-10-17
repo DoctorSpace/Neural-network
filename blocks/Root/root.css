@@ -1,0 +1,45 @@
+.root {
+
+    height: 100%;
+    margin: 0 auto;
+
+    font-family: Roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+body{
+    height: 100%;
+
+    color: var(--white);
+
+    background: url(/images/ground.svg),rgba(77, 50, 242, 0.8);
+
+    animation: gradient 8s ease infinite;
+
+}
+
+@keyframes gradient {
+    
+    0%{
+        background-position: 0 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0 50%;
+    }
+
+}
+
+:root{
+    --white: #FFFFFF;
+    --black: #18191A;
+    --blue: #54ADFF;
+}

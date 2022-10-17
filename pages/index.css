@@ -1,0 +1,25 @@
+/* Fonts */
+@import url(../fonts/normalize.css);
+@import url(../fonts/fonts.css);
+
+/* Root */
+@import url(../blocks/Root/root.css);
+
+/* Header */
+@import url(../blocks/header.css);
+
+/* Info */
+@import url(../blocks/info/info.css);
+@import url(../blocks/info/info--text.css);
+@import url(../blocks/info/info--img.css);
+
+/* Content */
+@import url(../blocks/content/content.css);
+@import url(../blocks/content/content--bottom.css);
+@import url(../blocks/content/content--img.css);
+@import url(../blocks/content/content-settings.css);
+@import url(../blocks/content/content--btn.css);
+@import url(../blocks/content/card.css);
+
+/* AI */
+@import url(../blocks/AI/AI.css);

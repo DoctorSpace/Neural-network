@@ -1,0 +1,21 @@
+.info{
+    height: 390px;
+    background: var(--black);
+
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    gap: 100px;
+}
+
+
+@media (max-width: 1000px) {
+    .info{
+        gap: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .info{
+        height: 300px;
+    }
+}
