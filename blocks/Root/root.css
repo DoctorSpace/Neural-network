@@ -16,7 +16,7 @@ body{
 
     color: var(--white);
 
-    background: url(/images/ground.svg),rgba(77, 50, 242, 0.8);
+    background: url(./images/ground.svg),rgba(77, 50, 242, 0.8);
 
     animation: gradient 8s ease infinite;
 
