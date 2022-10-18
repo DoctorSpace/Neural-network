@@ -3,7 +3,6 @@
     margin-left: 200px;
     margin-right: 200px;
 
-
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 100px;
@@ -22,6 +21,25 @@
 
     font-size: 24px;
     font-weight: 400;
+}
+
+.Znumber{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    margin-bottom: 20px;
+}
+
+.number{
+    width: 24px;
+    height: 28px;
+
+    padding-top: 4px;
+    border: 1px solid;
+    border-radius: 6px;
+
+    text-align: center;
 }
 
 
