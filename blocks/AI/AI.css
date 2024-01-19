@@ -50,7 +50,7 @@ header, footer {
 }
 
 .classifyOnClick img {
-
+margin-bottom: 60px;
   border-radius: 6px;
   width: 100%;
 }
